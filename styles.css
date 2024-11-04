@@ -1,0 +1,67 @@
+body{
+    margin: 0px;
+    font-family: "SoDo Sans SemiBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.navbar-left svg{
+    max-width: 50px;
+    margin: 0 20px 0 0;
+
+     
+}
+
+.navbar-left div {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.navbar-left div:hover, .findastore:hover {
+    color: rgb(0, 117, 74);
+}
+
+.navbar-left, .navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-left > *, .navbar-right > * {
+    margin: 10px;
+}
+
+/* navbar right */
+
+.findastore {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.sign-in, .join-now {
+    font-weight: 600;
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 5px 20px;
+}
+
+.join-now {
+    background-color: black;
+    color: white;
+}
+
+.join-now:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.sign-in:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
