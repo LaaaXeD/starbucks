@@ -1,7 +1,6 @@
 body{
     margin: 0px;
     font-family: "SoDo Sans SemiBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
-
 }
 
 /* Navbar */
@@ -77,6 +76,7 @@ body{
 
 .product-left img {
     max-width: 100%;
+    object-fit: cover;
 }
 
 .product-left,
@@ -87,6 +87,7 @@ body{
 
 .product-right {
     padding: 32px 48px;
+    margin: auto;
 }
 
 .product-title,
@@ -101,10 +102,13 @@ body{
     font-size: 24px;
     font-weight: 600;
     margin: 20px;
+    text-align: center;
 }
 
 .product-description {
     font-size: 19px;
+    /* padding: 25px 0; */
+    padding: 30px 60px;
 }
 .product-button {
     border: 1px solid white;
@@ -112,16 +116,11 @@ body{
     padding: 5px 20px;
     max-width: max-content;
     margin: auto;
-
 }
 
 .product-button-white {
     color: white;
 }
 
-.product-button-black {
-    color: black;
-    border-color: black;
-}
 
-/* 18:17 in the video */
+
